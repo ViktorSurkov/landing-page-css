@@ -1,5 +1,5 @@
-/* Standart styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+
 body {
     font-family: Open Sans, Geneva, Tahoma, sans-serif;
     font-weight: 600;
@@ -163,7 +163,7 @@ div.cred_logos span {
 }
 /*Subscribe*/
 div.subscribe {
-    height: 190px;
+    height: 210px;
     width: 100%;
     background-color: #37C1EB;
     color: #FFFFFF;
@@ -206,118 +206,367 @@ div.sub_info ul {
 
 
 /* Nastia Bila START */
+section.featured_guests {
+    height: 575px;
+    width: 100%;
+}
+div.featured_guests_container {
+    width: 1022px;
+    height: 575px;
+    position: relative;
+    margin: 0 auto;
+}
+div.featured_guests_container h3 {
+    width: 100%;
+    font-size: 35px;
+    padding: 30px 0;
+    text-align: center;
+}
+div.featured_guests_container h3 span {
+    color: #37C1EB;
+}
+div.featured_guests_container h2 span {
+    color: #37C1EB;
+  }
+div.contplace {
+    text-align: center;
+    padding-right: 50px;
+}
+div.placeholder1 {
+    left: 0;
+    position: absolute;
+    float: right;
+}
+div.placeholder2 {
+    left: 520px;
+    position: absolute;
+}
+div.contplace2 {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+div.layer1 {
+    padding-left: 100px;
+    width: 300px;
+}
+div.leftfoto {
+    float: right;
+}
+div.rightfoto {
+    float: right;
+}
+div.lorem2 {
+    font-size: 10pt;
+     line-height: 20pt;
+     color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 240px;
+    padding-top: 255px;
+  }
 
+  div.lorem2 h2{
+      color: #37C1EB;
+}
+div.lorem1 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 240px;
+}
+div.lorem1 h2{
+    color: #37C1EB;
+  }
+div.lorem3 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 758px;
+}
+div.lorem3 h2{
+    color: #37C1EB;
+  }
+div.lorem4 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 758px;
+    top: 363px;
+}
+div.lorem4 h2{
+    color: #37C1EB;
+  }
 /* Nastia Bila END */
 
 
 /* Leonid Prorubshchykov START */
-
+section.latest_episodes {
+    width: 100%;
+    height: 725px;
+    background-color: #191A1A;
+    color: #FFFFFF;
+}
+section.latest_episodes h3 {
+    font-weight: normal;
+    font-size: 22pt;
+    padding: 45px 0;
+    text-align: center;
+    cursor: default;
+}
+section.latest_episodes h3 span {
+    color: #38C3EC;
+}
+div.latest_episodes_articles {
+    width: 940px;
+    height: 460px;
+    margin: 0 auto;
+}
+section.latest_episodes article {
+    display: inline-block;
+    margin-right: 20px;
+    width: 215px;
+}
+section.latest_episodes article:nth-child(4){
+    margin-right: 0;
+}
+section.latest_episodes article h4 {
+    font-weight: normal;
+    margin-top: 30px;
+    color: #36BEE6;
+}
+section.latest_episodes article p {
+    font-size: 10pt;
+    color: #999E9D;
+}
+section.latest_episodes article a {
+    color: #38C1EA;
+    font-size: 10pt;
+}
+a.older_entries {
+    display: block;
+    margin-top: 40px;
+    width: 125px;
+    color: #38C1EA;
+    font-size: 10pt;
+}
+input.more_episodes {
+    display: block;
+    background-color: #191A1A;
+    border-radius: 3px;
+    font-size: 16pt;
+    padding: 10px;
+    color: #38C1EA;
+    border: 2px solid #38C1EA;
+    cursor: pointer;
+    margin: 20px auto;
+}
 /* Leonid Prorubshchykov END */
 
 
 /* ViktorSurkov START */
-div.photo{
+div.photo {
     display: inline-block;
     width: 120px;
     float: left;
     margin: 10px;
 }
-
-
-div.text-container{
+div.text-container {
     display: inline-block;
     width: 60%;
     float: left;
     margin: 10px;
     font-size: small;
 }
-
-
-div.text-container p{
+div.text-container p {
     font-size: large;
 }
-
-
-div.list1, div.list2, div.list3, div.list4{
+div.list1,
+div.list2,
+div.list3,
+div.list4 {
     width: 100%;
     display: inline-block;
     margin-left: 10%;
 }
-
-
-div.text-container1{
+div.text-container1 {
     display: inline-block;
     width: 80%;
     float: left;
     margin: 20px;
 }
-
-
-div.Main-Headline h1{
+div.Main-Headline {
+    background-color: #FFFFFF;    
+}
+div.Main-Headline h1 {
     font-size: x-large;
     margin-left: 10%;
     margin-bottom: 2%;
 }
-
-
 div.Main-Headline span{
     color: #37C1EB;
 }
-
-
-div.main{
+div.main {
     padding-left: 7%;
     margin: 2% 0 2% 2%;
     width: 55%;
     float: left;
 }
-
-
-div.facebook{
+div.facebook {
     float: left;
     margin: 2% 2% 0 2%;
     height: 620px;
     width: 300px;
 }
-
-
-div.widget{
+div.widget {
     background-color: #CBD1D0;
     margin: 5%;
     height: 100%;
     text-align: center;
 }
-
-
-div.widget p{
+div.widget p {
     padding-top: 80%;
     margin-left: 30%;
     margin-right: 30%;
 }
-
-
 /* Viktor Surkov END */
 
 
 /* Roman Mrychko START */
-/*Banner*/
-div.how-to-consume {
-    width: 100%;
-    height: 280px;
-    background: #A7B1AF;
-}
-
-div.epilogue-footer {
+div.bottom_page {
   width: 100%;
-  height: 280px;
-  background: #1C1E1D;
+  height: 500px;
 }
-
-div.copyright {
+/*how-to-consume (section 9)*/
+div.consume {
+    width: 100%;
+    height: 315px;
+    background-color: #CFD6D5;
+    right: 0;
+    text-align: center;
+}
+div.main-header {
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  align-content: center;
+}
+div.main-header h3 {
+  font-size: 20pt;
+  color: #313131;
+  text-align: center;
+  padding: 20px 0;
+}
+div.main-header span {
+  color: #37C1EB;
+}
+div#left-container {
+  float: left;
+}
+div#center-container {
+  margin: auto;
+}
+div#right-container {
+  float: right;
+}
+/* circle container*/
+div.circle-container {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  padding-top: 15px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+div.circle {
+  border-radius: 50%;
+  background-color: #313131;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+div.circle p {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25%;
+}
+/* epilogue-footer (section 10) */
+div.epilogue_footer {
+  width: 100%;
+  height: 380px;
+  background: #0C0C0C;
+}
+div.left-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  height: 380px;
+  text-align: left;
+}
+div.right-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  height: 380px;
+}
+div.left-text h3 {
+  font-size: 20pt;
+  margin-top: 30px;
+  margin-left: 220px;
+  color: #FFFFFF;
+}
+div.left-text p {
+  font-size: 10pt;
+  margin-top: 30px;
+  margin-left: 220px;
+  margin-right: 120px;
+  color: #D0D5D5;
+}
+div.right-text h3 {
+  font-size: 20pt;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+div.right-text input {
+  font-size: 16pt;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 60px;
+  border: 2px solid #FFFFFF;
+  background-color: #0C0C0C;
+  padding: 7px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+div.left-text span {
+  color: #37C1EB;
+}
+/* copyright (section 11) */
+div.footer {
   width: 100%;
   height: 50px;
-  background: black;
+  background: #171717;
 }
-
-div.copyright.
+div.copyright {
+  margin: auto;
+}
+div.copyright p {
+  color: #D0D5D5;
+  font-size: 10pt;
+  padding: 15px;
+  text-align: center;
+}
 /* Roman Mrychko END */
